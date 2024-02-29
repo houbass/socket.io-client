@@ -2,7 +2,7 @@ import "./App.css";
 import io from "socket.io-client";
 import { useEffect, useState } from "react";
 
-const socket = io.connect("http://localhost:3000/server");
+const socket = io.connect("https://socketio-server.netlify.app/");
 
 function App() {
   //Room State
